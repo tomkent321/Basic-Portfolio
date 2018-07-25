@@ -1,0 +1,23 @@
+
+
+/* This is the style for a horizontal nav menu  nn to float it right and the name float left */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;    
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+/* may want to make classes for these if there are other lists */
