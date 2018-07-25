@@ -3,6 +3,26 @@
 /* This is the style for a horizontal nav menu  nn to float it right and the name float left */
 
 
+/* Classes Used
+
+
+page            class               rmk
+
+index           container-1         main page container
+index           hero                big display 
+
+index           footer-text
+contact
+portfolio
+
+contact         container-2         later page container
+portfolio
+
+*/
+
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
