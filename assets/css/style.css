@@ -79,7 +79,6 @@ h1 {
     font-size: 20px;
     font-family: Georgia, Times, "Times New Roman", serif;
     float: left;
-    height: 10px;
     width: 150px;
     background-color: rgb(87, 155, 138);
     padding: 30px;
@@ -137,7 +136,7 @@ h2 {
     font-size: 16px;
     line-height: 32px;
     color: #777777;
-    height:800px;
+    height:860px;
 }
 
 .hero-3 {
@@ -148,29 +147,30 @@ h2 {
     font-size: 16px;
     line-height: 32px;
     color: #777777;
-    height:500px;
+    height:525px;
 }
 
 #main-pic {
     float:left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .picture-row {
     position: relative;
     float: left;
+    width: 560px;
 }
 
 .picture {
     float:left;
     margin-right: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     position: relative;
 }
 
 .picture-label {
-    height: 30px;
+    height: 40px;
     width: 240px;
     background-color: #4aaaa5;
     position: absolute;
@@ -178,6 +178,9 @@ h2 {
     top: 175px;
     text-align: center;
     padding: 5px;
+    font-size: 19px;
+    line-height: 35px;
+    font-family: eorgia, Times, "Times New Roman", serif;
 }
 
 .footer-text {
@@ -248,11 +251,22 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+    float: left;
 }
 
 .form-style {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    
     padding: 20px;
+    height:525px;
+}
+
+.text-input {
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
 }
 /* may want to make classes for these if there are other lists */
