@@ -74,19 +74,6 @@ header {
     background-color: #fff;
 }
 
-/* 
-#main-name {
-    font-size: 20px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    float: left;
-    height: 10px;
-    width: 150px;
-    background-color: rgb(87, 155, 138);
-    padding: 30px;
-    color: #fff;
-}
-*/
-
 
 h1 {
     font-size: 20px;
@@ -132,7 +119,6 @@ h2 {
 }
 
 
-
 .hero {
     background-color: #fff;
     padding:35px;
@@ -143,10 +129,45 @@ h2 {
     color: #777777;
 }
 
+.hero-2 {
+    background-color: #fff;
+    padding:35px;
+    margin-top: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #777777;
+    height:800px;
+}
+
+
 #main-pic {
     float:left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.picture-row {
+    position: relative;
+    float: left;
+}
+
+.picture {
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.picture-label {
+    height: 30px;
+    width: 240px;
+    background-color: rgb(87, 155, 138);;
+    position: absolute;
+    color: white;
+    top: 175px;
+    text-align: center;
+    padding: 5px;
 }
 
 /* may want to make classes for these if there are other lists */
